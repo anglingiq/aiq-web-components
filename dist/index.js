@@ -1,1 +1,10 @@
-export { FormTitle, Select, Input, Radio, Textarea, Checkbox } from './forms';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Checkbox = exports.Textarea = exports.Radio = exports.Input = exports.Select = exports.FormTitle = void 0;
+var forms_1 = require("./forms");
+Object.defineProperty(exports, "FormTitle", { enumerable: true, get: function () { return forms_1.FormTitle; } });
+Object.defineProperty(exports, "Select", { enumerable: true, get: function () { return forms_1.Select; } });
+Object.defineProperty(exports, "Input", { enumerable: true, get: function () { return forms_1.Input; } });
+Object.defineProperty(exports, "Radio", { enumerable: true, get: function () { return forms_1.Radio; } });
+Object.defineProperty(exports, "Textarea", { enumerable: true, get: function () { return forms_1.Textarea; } });
+Object.defineProperty(exports, "Checkbox", { enumerable: true, get: function () { return forms_1.Checkbox; } });
