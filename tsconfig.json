@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "target": "es2015",
+      "module": "esnext",
+      "target": "es5",
+      "strict": false,
+      "moduleResolution": "node",
       "declaration": true,
-      "jsx": "react",
+      "jsx": "react-jsx",
       "outDir": "./dist"
     },
     "include": [
